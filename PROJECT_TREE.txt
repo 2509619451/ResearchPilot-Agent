@@ -1,0 +1,40 @@
+ResearchPilot-Agent-V5-Final/
+├── backend/
+│   ├── app/
+│   │   ├── main.py
+│   │   ├── schemas.py
+│   │   ├── api/
+│   │   │   └── router.py
+│   │   ├── core/
+│   │   │   ├── config.py
+│   │   │   ├── db.py
+│   │   │   └── llm.py
+│   │   ├── agent/
+│   │   │   ├── state.py
+│   │   │   ├── nodes.py
+│   │   │   └── graph.py
+│   │   └── services/
+│   │       ├── paper_service.py
+│   │       ├── search_service.py
+│   │       ├── retrieval_service.py
+│   │       ├── graph_service.py
+│   │       └── report_service.py
+│   ├── tests/test_smoke.py
+│   ├── requirements.txt
+│   └── Dockerfile
+├── frontend/
+│   ├── src/main.jsx
+│   ├── src/style.css
+│   ├── index.html
+│   ├── package.json
+│   ├── Dockerfile
+│   └── nginx.conf
+├── storage/
+│   ├── papers/.gitkeep
+│   └── reports/.gitkeep
+├── .env.example
+├── docker-compose.yml
+├── run_local.ps1
+├── README.md
+├── V5_CHANGELOG.md
+└── PROJECT_TREE.txt

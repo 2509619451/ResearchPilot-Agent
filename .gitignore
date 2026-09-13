@@ -1,0 +1,11 @@
+.env
+__pycache__/
+*.pyc
+backend/.venv/
+frontend/node_modules/
+frontend/dist/
+storage/*.db
+storage/papers/*
+storage/reports/*
+!storage/papers/.gitkeep
+!storage/reports/.gitkeep
